@@ -1,46 +1,35 @@
-name: Update readme
+name: generate 3d chart for profile contributions
 
 on:
+  # run automatically every 24 hours
   schedule:
-    # Run at 0 am every day
-    - cron: '0 16 * * *'
+    - cron: "0 */24 * * *" 
+  
+  # allows to manually run the job at any time
   workflow_dispatch:
+  
+  # run on every push on the main branch
+  push:
+    branches:
+    - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v4
-      - name: Generate 3D contribution profile
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: ./3d-profile-settings.json
-      - name: Read GitHub cookies from 1Password
-        id: op-load-secret
-        uses: 1password/load-secrets-action@v2
+          SETTING_JSON: conf/github-profile-3d-contrib.json
+          
+      # push the content of <build_dir> to a branch
+      - name: push SVGs to the output-3d branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          export-env: false
+          target_branch: output-3d-contrib
+          build_dir: profile-3d-contrib
         env:
-          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
-          GH_SESSION: "op://Development/GitHub Session cookie/credential"
-      - name: Upload to GitHub
-        uses: BlackBuck/github-s3@master
-        id: upload
-        with:
-          github-session: ${{ steps.op-load-secret.outputs.GH_SESSION }}
-          files: >-
-            ./profile-3d-contrib/profile-3d.svg
-      - name: Update readme
-        run: |
-          link=$(echo ${{ steps.upload.outputs.links }} | tr -d '\n')
-          sed -i "2 s|src=\"[^\"]*\"|src=\"$link\"|" README.md
-      - run: rm -rf ./profile-3d-contrib
-      - name: Add & Commit
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A .
-          git commit -m "Update readme daily"
-          git push
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
