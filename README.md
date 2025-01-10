@@ -6,6 +6,6 @@
 	</picture>
 </p>
 <p align="center">
-  <img height="200" src="https://github-readme-stats.vercel.app/api?username=BlackBuck&count_private=true&include_all_commits=true&show_icons=true&custom_title=BlackBuck%27s%20GitHub%20stats" />
+  <img height="200" src="https://github-readme-stats.vercel.app/api?username=BlackBuck&count_private=true&theme=dark&include_all_commits=true&show_icons=true&custom_title=BlackBuck%27s%20GitHub%20stats" />
   <img height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=BlackBuck&theme=dark&hide_border=false" />
 </p>
