@@ -1,6 +1,7 @@
 ### Hey there 👋, I'm Anil Bishnoi
-🎓 CS Undergrad @ NIT KKR<br/>
-🧠 Compiler nerd
+>   If it's not fun, you're not doing it right.
+
+I'm a compiler nerd and a CS undergrad @ NIT KKR.
 ### 🛠️ Tech Stack
 
 -  **Languages**: `Go`, `Python`, `Java`, `TypeScript`
@@ -12,4 +13,3 @@
   <img src="https://streak-stats.demolab.com?user=BlackBuck&theme=radical" alt="GitHub Streak" />
 </p>
 
-> If it's not fun, you're not doing it right.
