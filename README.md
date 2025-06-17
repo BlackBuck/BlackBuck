@@ -7,8 +7,8 @@
 -  **Web Dev**: `Next.js`, `Tailwind CSS`, `Radix UI`
 -  **ML Tools**: `scikit-learn`, `Pandas`, `YOLO`
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=BlackBuck&show_icons=true&theme=radical" alt="Anil's GitHub stats" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BlackBuck&show_icons=true&theme=radical" alt="Anil's GitHub stats" /><br/>
   <img src="https://streak-stats.demolab.com?user=BlackBuck&theme=radical" alt="GitHub Streak" />
 </p>
 
