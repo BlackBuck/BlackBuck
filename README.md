@@ -2,15 +2,10 @@
 
 <a href="https://linkedin.com/in/uneel"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://github.com/BlackBuck"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="mailto:anilkumarpanwar2929@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 ---
 
 I'm a passionate Computer Science undergraduate at the **National Institute of Technology, Kurukshetra**, graduating in 2026. I have a strong interest in compilers, chaos theory, dynamical systems, and high-performance computing.
-
--    I’m currently working on enhancing my parser combinator library, **[Pcom-Go](https://github.com/BlackBuck/pcom-go)** and building a novel algorithm for chaos-based encryption.
--    I’m currently learning **Rust**  and exploring its applications in systems programming.
--    I’m open to collaborating on open-source compiler tools, performance-critical libraries, and full-stack web applications.
--    How to reach me: **anilkumarpanwar2929@gmail.com**  or on **[LinkedIn](https://linkedin.com/in/uneel)**.
--    Fun fact: I believe that if it's not fun, you're not doing it right.
 
 ---
 
