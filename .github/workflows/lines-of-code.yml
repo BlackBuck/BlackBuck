@@ -1,0 +1,49 @@
+name: Update LOC Badge (All Repos)
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  count-loc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install jq -y
+
+      - name: Fetch all public repos
+        env:
+          GH_USER: BlackBuck
+        run: |
+          curl -s "https://api.github.com/users/$GH_USER/repos?per_page=100" | \
+          jq -r '.[].ssh_url' > repos.txt
+
+      - name: Clone all repos
+        run: |
+          mkdir all_repos
+          cd all_repos
+          while read repo; do
+            git clone --depth 1 "$repo"
+          done < ../repos.txt
+
+      - name: Count total lines of code
+        id: loc
+        run: |
+          TOTAL_LOC=$(find all_repos -type f ! -path '*/.git/*' | xargs wc -l | tail -n1 | awk '{print $1}')
+          echo "total_loc=$TOTAL_LOC" >> $GITHUB_ENV
+
+      - name: Update README.md badge
+        run: |
+          sed -i "s/Lines%20of%20Code-[0-9]\+%2B/Lines%20of%20Code-${{ env.total_loc }}%2B/" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update LOC badge"
+          git push
