@@ -38,7 +38,7 @@ jobs:
 
       - name: Update README.md badge
         run: |
-          sed -i "s/Lines%20of%20Code-[0-9]\+%2B/Lines%20of%20Code-${{ env.total_loc }}%2B/" README.md
+          sed -i "s/Lines%20of%20Code-[^-]*-/Lines%20of%20Code-$total_loc-/" README.md
 
       - name: Commit and push changes
         run: |
