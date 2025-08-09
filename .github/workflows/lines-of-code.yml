@@ -1,6 +1,9 @@
 name: Update LOC Badge (All Repos)
 
 on:
+  push:
+    branches:
+      - main # Trigger on push to main branch
   schedule:
     - cron: "30 18 * * *" # Runs every day at midnight
   workflow_dispatch: # Manual trigger
