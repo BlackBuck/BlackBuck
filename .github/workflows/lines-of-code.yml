@@ -27,6 +27,7 @@ jobs:
 
       - name: Clone all repos
         run: |
+          rm -rf all_repos
           mkdir all_repos
           cd all_repos
           while read repo; do
