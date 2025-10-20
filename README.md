@@ -1,7 +1,7 @@
 # 🦌 Anil Kumar | [@BlackBuck](https://github.com/BlackBuck)
 > *How strange is it to be anything at all*
 
-![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-248963-blue)
+![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-193660-blue)
 [![wakatime](https://wakatime.com/badge/user/68e16777-e224-49fb-b7b1-0a90efbc141a.svg)](https://wakatime.com/@68e16777-e224-49fb-b7b1-0a90efbc141a)
 
 **CS Undergrad @ NIT Kurukshetra (2022–26)**  
