@@ -5,6 +5,7 @@ https://github.com/BlackBuck/cfgo.git
 https://github.com/BlackBuck/contractiq.git
 https://github.com/BlackBuck/Deepfake-Audio-Recognition.git
 https://github.com/BlackBuck/gdrive-clone.git
+https://github.com/BlackBuck/git-proofread.git
 https://github.com/BlackBuck/go-yaml.git
 https://github.com/BlackBuck/govalid.git
 https://github.com/BlackBuck/hisaab.git
