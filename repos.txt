@@ -22,6 +22,7 @@ https://github.com/BlackBuck/opensox.git
 https://github.com/BlackBuck/pcom-go.git
 https://github.com/BlackBuck/py-graphql.git
 https://github.com/BlackBuck/regex-go.git
+https://github.com/BlackBuck/revar.git
 https://github.com/BlackBuck/Self-learning-runner.git
 https://github.com/BlackBuck/Self_Learn_.git
 https://github.com/BlackBuck/strava-art.git
