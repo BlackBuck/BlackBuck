@@ -1,41 +1,59 @@
-# 🦌 Anil Kumar | [@BlackBuck](https://github.com/BlackBuck)
-> *How strange is it to be anything at all*
+<div align="center">
 
-![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-1066143-blue)
-[![wakatime](https://wakatime.com/badge/user/68e16777-e224-49fb-b7b1-0a90efbc141a.svg)](https://wakatime.com/@68e16777-e224-49fb-b7b1-0a90efbc141a)
+```
+                     /\_/\
+                    ( o.o )
+                     > ^ <
+                  BLACKBUCK
+```
 
-**CS Undergrad @ NIT Kurukshetra (2022–26)**  
-Compilers • Domain-Specific Languages • Cryptoanalysis • Cybersecurity  
+# Anil Bishnoi
 
----
+*How strange is it to be anything at all*
 
-### ⚡ Tech
-Go • Java • Python • C/C++ • SQL • JavaScript  
-Next.js • React • Node.js • TensorFlow • PyTorch  
+`CS Undergrad · NIT Kurukshetra · 2022–26`
 
----
+[![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-1066143-000000?style=flat-square)](https://github.com/BlackBuck)
+[![wakatime](https://wakatime.com/badge/user/68e16777-e224-49fb-b7b1-0a90efbc141a.svg?style=flat-square)](https://wakatime.com/@68e16777-e224-49fb-b7b1-0a90efbc141a)
 
-### 📊 Stats
+</div>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=BlackBuck&show_icons=true&theme=catppuccin_mocha)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BlackBuck&layout=donut&theme=catppuccin_mocha)
+<br>
 
----
+### stack
 
-### 🚀 Projects
+`Go` `Java` `Python` `C/C++` `SQL` `JavaScript`
+`Next.js` `React` `Node.js` `TensorFlow` `PyTorch`
 
-- [pcom-go](https://github.com/BlackBuck/pcom-go) — High-performance parser combinator in Go, 3× faster with checkpoint/rollback parsing  
-- [AI vs Human Audio Recognizer](https://github.com/BlackBuck/Deepfake-Audio-Recognition) — 99.7% accuracy using MEL spectrogram features in PyTorch  
+interests — compilers, domain-specific languages, cryptanalysis, cybersecurity
 
----
+<br>
 
-### 🏆 Competitive Programming
+### projects
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-1485-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/AnilBishnoi/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-Pupil-1F8ACB?logo=codeforces&logoColor=white)](https://codeforces.com/profile/un.eel)
+**[pcom-go](https://github.com/BlackBuck/pcom-go)**
+parser combinator library for Go — 3× faster with checkpoint/rollback parsing
 
----
+<br>
 
-### 📫 Contact
+### competitive programming
 
-[LinkedIn](https://www.linkedin.com/in/uneel) • [Portfolio](https://blackbuck.github.io) • anilkumarpanwar2929@gmail.com
+[![LeetCode](https://img.shields.io/badge/LeetCode-black?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/AnilBishnoi/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-black?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/un.eel)
+[![CodeChef](https://img.shields.io/badge/CodeChef-black?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/anil_bishnoi)
+
+<br>
+
+### elsewhere
+
+[Portfolio](https://blackbuck.github.io) · [LinkedIn](https://www.linkedin.com/in/uneel) · anilkumarpanwar2929@gmail.com
+
+<br>
+
+<div align="center">
+
+```
+  ·  ·  ·  ·  ·  ·  ·  ·
+```
+
+</div>
