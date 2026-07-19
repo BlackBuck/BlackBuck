@@ -29,6 +29,7 @@ https://github.com/BlackBuck/Self_Learn_.git
 https://github.com/BlackBuck/strava-art.git
 https://github.com/BlackBuck/Telegram_Bot_Gemini_Node.git
 https://github.com/BlackBuck/the-super-tiny-compiler.git
+https://github.com/BlackBuck/tirri.git
 https://github.com/BlackBuck/workflow-performance-auditor.git
 https://github.com/BlackBuck/yamldiff.git
 https://github.com/BlackBuck/zoekt.git
