@@ -13,7 +13,7 @@
 
 `CS Undergrad · NIT Kurukshetra · 2022–26`
 
-[![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-1071414-000000?style=flat-square)](https://github.com/BlackBuck)
+[![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-1071415-000000?style=flat-square)](https://github.com/BlackBuck)
 [![wakatime](https://wakatime.com/badge/user/68e16777-e224-49fb-b7b1-0a90efbc141a.svg?style=flat-square)](https://wakatime.com/@68e16777-e224-49fb-b7b1-0a90efbc141a)
 
 </div>
