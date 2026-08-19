@@ -7,8 +7,6 @@
                   BLACKBUCK
 ```
 
-# Anil Bishnoi
-
 *How strange is it to be anything at all*
 
 `CS Undergrad · NIT Kurukshetra · 2022–26`
