@@ -36,7 +36,6 @@ https://github.com/BlackBuck/the-super-tiny-compiler.git
 https://github.com/BlackBuck/tirri.git
 https://github.com/BlackBuck/unparam.git
 https://github.com/BlackBuck/waitgroupcheck.git
-https://github.com/BlackBuck/whichtests.git
 https://github.com/BlackBuck/workflow-performance-auditor.git
 https://github.com/BlackBuck/yamldiff.git
 https://github.com/BlackBuck/zoekt.git
