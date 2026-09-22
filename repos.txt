@@ -22,6 +22,7 @@ https://github.com/BlackBuck/MIDIGenerator.git
 https://github.com/BlackBuck/million-items-list.git
 https://github.com/BlackBuck/Neural_Network.git
 https://github.com/BlackBuck/opensox.git
+https://github.com/BlackBuck/paste-guard.git
 https://github.com/BlackBuck/pcom-go.git
 https://github.com/BlackBuck/py-graphql.git
 https://github.com/BlackBuck/regex-go.git
